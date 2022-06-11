@@ -10,8 +10,10 @@
 }
 
 header{
-    background-color: #0000007b;
+    background-color: #000000ac;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
 }
 
 header img{
@@ -61,7 +63,7 @@ ul{
 #lista-destinos ul li h2{
     text-align: center;
     font-size: 20px;
-    margin-top: 18px;
+    margin: 18px;
 }
 
 footer{
@@ -69,4 +71,9 @@ footer{
     color: #ff3a3a;
     text-align: center;
     padding: 18px;
+}
+/*Melhorando CSS*/
+
+#lista-destinos ul li:hover{
+      box-shadow: 0px 0px 20px #000;
 }
